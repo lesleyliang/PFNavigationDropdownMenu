@@ -32,6 +32,8 @@
     self.cellTextLabelFont = [UIFont fontWithName:@"HelveticaNeue-Bold" size:17];
     self.cellSelectionColor = [UIColor lightGrayColor];
     self.checkMarkImage = [UIImage imageWithContentsOfFile:checkMarkImagePath];
+    //Lesley added
+    self.cellItemImage = nil;
     self.animationDuration = 0.5;
     self.arrowImage = [UIImage imageWithContentsOfFile:arrowImagePath];
     self.arrowPadding = 15;

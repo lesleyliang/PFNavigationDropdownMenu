@@ -34,6 +34,8 @@
     menuView.cellSelectionColor = [UIColor colorWithRed:0/255.0 green:160/255.0 blue:195/255.0 alpha: 1.0];
     menuView.cellTextLabelColor = [UIColor whiteColor];
     menuView.cellTextLabelFont = [UIFont fontWithName:@"Avenir-Heavy" size:17];
+    menuView.cellItemImage = [UIImage imageNamed:@"Menu_About on"];
+    menuView.checkMarkImage = nil;
     menuView.arrowPadding = 15;
     menuView.animationDuration = 0.5f;
     menuView.maskBackgroundColor = [UIColor blackColor];

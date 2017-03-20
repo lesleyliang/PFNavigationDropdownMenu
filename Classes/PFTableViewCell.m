@@ -28,6 +28,9 @@
         self.textLabel.font = self.configuration.cellTextLabelFont;
         self.textLabel.frame = CGRectMake(20, 0, self.cellContentFrame.size.width, self.cellContentFrame.size.height);
         
+        //Lesley Added
+        self.imageView.image = self.configuration.cellItemImage;
+        
         // Checkmark icon
         self.checkmarkIcon = [[UIImageView alloc] initWithFrame:CGRectMake(self.cellContentFrame.size.width - 50, (self.cellContentFrame.size.height - 30)/2, 30, 30)];
         self.checkmarkIcon.hidden = YES;

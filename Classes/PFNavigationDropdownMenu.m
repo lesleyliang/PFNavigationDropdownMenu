@@ -252,4 +252,11 @@
 {
     self.configuration.maskBackgroundOpacity = maskBackgroundOpacity;
 }
+
+//Lesley Added
+- (void)setCellItemImage:(UIImage *)cellItemImage
+{
+    self.configuration.cellItemImage = cellItemImage;
+}
+
 @end

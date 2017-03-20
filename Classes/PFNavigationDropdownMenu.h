@@ -21,6 +21,8 @@
 @property (nonatomic, strong) UIColor *maskBackgroundColor;
 @property (nonatomic, assign) CGFloat maskBackgroundOpacity;
 @property (nonatomic, copy) void(^didSelectItemAtIndexHandler)(NSUInteger indexPath);
+//Lesley Added
+@property (nonatomic, strong) UIImage *cellItemImage;
 
 - (instancetype)initWithFrame:(CGRect)frame
                         title:(NSString *)title
